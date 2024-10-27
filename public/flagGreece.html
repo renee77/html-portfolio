@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag</title>
+    <style>
+        div.blue{
+            background-color: #0d5eaf;
+            height: 60px;
+            width: 900px;
+            z-index: -1;
+            position: relative;
+        }
+        div.white{
+            background-color: white;
+            height: 60px;
+            width: 900px;
+            position: relative;
+            z-index: -1;
+        }
+        .whiteRectangle{
+            background-color: white;
+            height: 300px;
+            width: 60px;
+            position: absolute;
+            left: 120px;
+            z-index: 10;
+        }
+        #horizontalRectangle{
+            display: inline-block;
+            background-color: white;
+            height: 60px;
+            width: 300px;
+        }
+        .blueRectangle{
+            display: inline-block;
+            background-color: #0d5eaf;
+            height: 60px;
+            width: 120px;
+        }
+
+        .blueRectangle2{
+            display: inline-block;
+            background-color: #0d5eaf;
+            height: 60px;
+            width: 120px;
+            position: absolute;
+            left: 180px;
+            z-index: 20;
+        }
+        
+        
+
+       
+    </style>
+</head>
+<body>
+    <div class="blue">
+        <div class="whiteRectangle"></div>
+    </div>
+    <div class="white">
+        <div class="blueRectangle"></div>
+        <div class="whiteRectangle"></div>
+        <div class="blueRectangle2"></div>
+    </div>
+    <div class="blue">
+        <div id="horizontalRectangle"></div>
+    </div>
+    <div class="white">
+        <div class="blueRectangle"></div>
+        <div class="whiteRectangle"></div>
+        <div class="blueRectangle2"></div>
+    </div>
+    <div class="blue">
+        <div class="whiteRectangle"></div>
+    </div>
+    <div class="white"></div>
+    <div class="blue"></div>
+    <div class="white"></div>
+    <div class="blue"></div>
+    
+</body>
+</html>
